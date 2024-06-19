@@ -1,0 +1,47 @@
+GET http://localhost:8000/api/v1/movies
+###
+
+DELETE http://localhost:8000/api/v1/movies/tt1517268
+###
+
+POST http://localhost:8000/api/v1/movies
+content-type: application/json
+
+{
+  "Title": "Barbie",
+  "YearStart": "2023",
+  "Rated": "PG-13",
+  "Runtime": 114,
+  "Genre": "Adventure, Comedy, Fantasy",
+  "Director": "Greta Gerwig",
+  "Actors": "Margot Robbie, Ryan Gosling, Issa Rae",
+  "Plot": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+  "Country": "United States, United Kingdom",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+  "imdbRating": 6.8,
+  "imdbID": "tt1517268",
+  "Type": "movie"
+}
+###
+
+POST http://localhost:8000/api/v1/movies
+content-type: application/json
+
+{
+  "Title": "House",
+  "YearStart": 2004,
+  "YearEnd": 2012,
+  "Rated": "TV-14",
+  "Runtime": 44,
+  "Genre": "Drama, Mystery",
+  "Director": "N/A",
+  "Actors": "Hugh Laurie, Omar Epps, Robert Sean Leonard",
+  "Plot": "The series follows the life of anti-social, pain killer addict, witty and arrogant medical doctor Gregory House (Hugh Laurie) with only half a muscle in his right leg. He and his team of medical doctors try to cure complex and rare diseases from very ill ordinary people in the United States of America.",
+  "Country": "United States",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMDA4NjQzN2ItZDhhNC00ZjVlLWFjNTgtMTEyNDQyOGNjMDE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+  "imdbRating": 8.7,
+  "imdbID": "tt0412142",
+  "Type": "series",
+  "totalSeasons": 8
+}
+###

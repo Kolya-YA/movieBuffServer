@@ -1,0 +1,8 @@
+GET http://localhost:8000/api/v1/omdb
+###
+GET http://localhost:8000/api/v1/omdb?s=bond&page=3
+###
+GET http://localhost:8000/api/v1/omdb?s=barbie
+###
+GET http://localhost:8000/api/v1/omdb/tt1517268
+###
