@@ -1,5 +1,5 @@
 import express from 'express'
-import { getOmdbSearch, getOmdbByImdbId } from '../controllers/omdbController.js'
+import { getOmdbSearch, getOmdbByImdbId } from '../controllers/omdbControllers.js'
 
 const router = express.Router()
 

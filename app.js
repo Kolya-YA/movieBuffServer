@@ -4,7 +4,7 @@ import moviesRoutes from './routes/movieRoutes.js'
 import omdbRoutes from './routes/omdbRoutes.js'
 
 const corsOptions = {
-    origin: ['http://localhost:5173', 'https://gulmina.github.io/wd51-contentfull']
+    origin: process.env.ORIGINS.split(', ')
 }
 
 const app = express()
